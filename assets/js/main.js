@@ -1,6 +1,7 @@
 function show() {
     let input = document.getElementById("monat").value
 
+    document.getElementById("list").classList.add("hidden")
     document.getElementById("noInput").classList.remove("show")
     document.getElementById("outputField").classList.remove("article")
     switch (input) {
